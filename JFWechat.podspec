@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
     s.libraries    = 'z', 'c++', 'sqlite3'
     
     s.pod_target_xcconfig = {
-       'OTHER_LDFLAGS' => '-ObjC', '-all_load'
+       'OTHER_LDFLAGS' => '-ObjC-all_load',
        'ENABLE_BITCODE' => 'NO',
-       'ARCHS' => ['arm64', 'x86_64']
+       'ARCHS' => ['arm64', 'x86_64'],
     }
 end
