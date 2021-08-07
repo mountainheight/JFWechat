@@ -1,0 +1,6 @@
+framework module JFWechat {
+  umbrella header "JFWechat.h"
+
+  export *
+  module * { export * }
+}
