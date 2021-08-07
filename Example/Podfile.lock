@@ -1,0 +1,16 @@
+PODS:
+  - JFWechat (1.0.0)
+
+DEPENDENCIES:
+  - JFWechat (from `../`)
+
+EXTERNAL SOURCES:
+  JFWechat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JFWechat: 400e21cd4d36cd2d4e8af54481a27d8c0c0636fa
+
+PODFILE CHECKSUM: 67610cfb585332f5e62b6196f91e015798e0e83c
+
+COCOAPODS: 1.10.1
