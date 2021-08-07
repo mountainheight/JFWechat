@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://code.hh-medic.com/dev-client/hhsdk.ios'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'ligen' => 'ligen@smartlink-tech.com.cn' }
-    s.source           = { :git => 'http://code.hh-medic.com/hh_public/hhsdk.ios.jf.git', :tag => s.version }
+    s.source           = { :git => 'https://github.com/mountainheight/JFWechat.git', :tag => s.version }
 
     s.vendored_frameworks =  '*.framework'
 
